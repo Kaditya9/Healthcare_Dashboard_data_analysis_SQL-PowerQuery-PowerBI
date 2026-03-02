@@ -1,0 +1,1 @@
+Age Bucket = SWITCH(TRUE(),healthcare_dataset[Age]>=13 && healthcare_dataset[Age]<=18,"Teen",healthcare_dataset[Age]>18 && healthcare_dataset[Age]<=40,"Young",healthcare_dataset[Age]>40 && healthcare_dataset[Age]<=65,"Middle Age",healthcare_dataset[Age]>65,"Old")
